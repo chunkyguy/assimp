@@ -112,6 +112,18 @@
 		19E7090A185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
 		19E7090B185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
 		19E7090C185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
+		19E7090E185A7A5900B8D758 /* IFCOpenings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E7090D185A7A5900B8D758 /* IFCOpenings.cpp */; };
+		19E7090F185A7A5900B8D758 /* IFCOpenings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E7090D185A7A5900B8D758 /* IFCOpenings.cpp */; };
+		19E70910185A7A5900B8D758 /* IFCOpenings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E7090D185A7A5900B8D758 /* IFCOpenings.cpp */; };
+		19E70911185A7A5900B8D758 /* IFCOpenings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E7090D185A7A5900B8D758 /* IFCOpenings.cpp */; };
+		19E70914185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70912185A7AD300B8D758 /* STEPFileEncoding.cpp */; };
+		19E70915185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70912185A7AD300B8D758 /* STEPFileEncoding.cpp */; };
+		19E70916185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70912185A7AD300B8D758 /* STEPFileEncoding.cpp */; };
+		19E70917185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70912185A7AD300B8D758 /* STEPFileEncoding.cpp */; };
+		19E70918185A7AD300B8D758 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E70913185A7AD300B8D758 /* STEPFileEncoding.h */; };
+		19E70919185A7AD300B8D758 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E70913185A7AD300B8D758 /* STEPFileEncoding.h */; };
+		19E7091A185A7AD300B8D758 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E70913185A7AD300B8D758 /* STEPFileEncoding.h */; };
+		19E7091B185A7AD300B8D758 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E70913185A7AD300B8D758 /* STEPFileEncoding.h */; };
 		3AB8A3AF0E50D67A00606590 /* MDCFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AB0E50D67A00606590 /* MDCFileData.h */; };
 		3AB8A3B00E50D67A00606590 /* MDCLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8A3AC0E50D67A00606590 /* MDCLoader.cpp */; };
 		3AB8A3B10E50D67A00606590 /* MDCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AD0E50D67A00606590 /* MDCLoader.h */; };
@@ -1567,6 +1579,9 @@
 		19E708A2185A743600B8D758 /* FBXUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXUtil.cpp; path = ../../code/FBXUtil.cpp; sourceTree = "<group>"; };
 		19E708A3185A743600B8D758 /* FBXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXUtil.h; path = ../../code/FBXUtil.h; sourceTree = "<group>"; };
 		19E70908185A799A00B8D758 /* IFCBoolean.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCBoolean.cpp; path = ../../code/IFCBoolean.cpp; sourceTree = "<group>"; };
+		19E7090D185A7A5900B8D758 /* IFCOpenings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCOpenings.cpp; path = ../../code/IFCOpenings.cpp; sourceTree = "<group>"; };
+		19E70912185A7AD300B8D758 /* STEPFileEncoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STEPFileEncoding.cpp; path = ../../code/STEPFileEncoding.cpp; sourceTree = "<group>"; };
+		19E70913185A7AD300B8D758 /* STEPFileEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STEPFileEncoding.h; path = ../../code/STEPFileEncoding.h; sourceTree = "<group>"; };
 		3AB8A3AB0E50D67A00606590 /* MDCFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCFileData.h; sourceTree = "<group>"; };
 		3AB8A3AC0E50D67A00606590 /* MDCLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MDCLoader.cpp; sourceTree = "<group>"; };
 		3AB8A3AD0E50D67A00606590 /* MDCLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCLoader.h; sourceTree = "<group>"; };
@@ -2821,6 +2836,7 @@
 				F97BA06815439FC3009EB9DD /* IFCLoader.cpp */,
 				F97BA06915439FC3009EB9DD /* IFCLoader.h */,
 				F97BA06A15439FC3009EB9DD /* IFCMaterial.cpp */,
+				19E7090D185A7A5900B8D758 /* IFCOpenings.cpp */,
 				F97BA06B15439FC3009EB9DD /* IFCProfile.cpp */,
 				F97BA06C15439FC3009EB9DD /* IFCReaderGen.cpp */,
 				F97BA06D15439FC3009EB9DD /* IFCReaderGen.h */,
@@ -2845,6 +2861,8 @@
 				F99A9F5915436323000682F3 /* STEPFile.h */,
 				F99A9F5A15436323000682F3 /* STEPFileReader.cpp */,
 				F99A9F5B15436323000682F3 /* STEPFileReader.h */,
+				19E70912185A7AD300B8D758 /* STEPFileEncoding.cpp */,
+				19E70913185A7AD300B8D758 /* STEPFileEncoding.h */,
 			);
 			name = STEP;
 			sourceTree = "<group>";
@@ -2951,6 +2969,7 @@
 				745FF862113ECB080020C31B /* ObjFileMtlImporter.h in Headers */,
 				745FF863113ECB080020C31B /* ObjFileParser.h in Headers */,
 				745FF864113ECB080020C31B /* ObjTools.h in Headers */,
+				19E7091A185A7AD300B8D758 /* STEPFileEncoding.h in Headers */,
 				745FF865113ECB080020C31B /* ParsingUtils.h in Headers */,
 				745FF866113ECB080020C31B /* PlyLoader.h in Headers */,
 				745FF867113ECB080020C31B /* PlyParser.h in Headers */,
@@ -3195,6 +3214,7 @@
 				745FF945113ECC660020C31B /* ObjFileMtlImporter.h in Headers */,
 				745FF946113ECC660020C31B /* ObjFileParser.h in Headers */,
 				745FF947113ECC660020C31B /* ObjTools.h in Headers */,
+				19E7091B185A7AD300B8D758 /* STEPFileEncoding.h in Headers */,
 				745FF948113ECC660020C31B /* ParsingUtils.h in Headers */,
 				745FF949113ECC660020C31B /* PlyLoader.h in Headers */,
 				745FF94A113ECC660020C31B /* PlyParser.h in Headers */,
@@ -3439,6 +3459,7 @@
 				3AF45B410E4B716800207D74 /* ObjFileMtlImporter.h in Headers */,
 				3AF45B430E4B716800207D74 /* ObjFileParser.h in Headers */,
 				3AF45B440E4B716800207D74 /* ObjTools.h in Headers */,
+				19E70918185A7AD300B8D758 /* STEPFileEncoding.h in Headers */,
 				3AF45B450E4B716800207D74 /* ParsingUtils.h in Headers */,
 				3AF45B470E4B716800207D74 /* PlyLoader.h in Headers */,
 				3AF45B490E4B716800207D74 /* PlyParser.h in Headers */,
@@ -3673,6 +3694,7 @@
 				F962E90F0F5DE6E2009A5495 /* ObjFileMtlImporter.h in Headers */,
 				F962E9100F5DE6E2009A5495 /* ObjFileParser.h in Headers */,
 				F962E9110F5DE6E2009A5495 /* ObjTools.h in Headers */,
+				19E70919185A7AD300B8D758 /* STEPFileEncoding.h in Headers */,
 				F962E9120F5DE6E2009A5495 /* ParsingUtils.h in Headers */,
 				F962E9130F5DE6E2009A5495 /* PlyLoader.h in Headers */,
 				F962E9140F5DE6E2009A5495 /* PlyParser.h in Headers */,
@@ -4000,6 +4022,7 @@
 				745FF8C9113ECB080020C31B /* MDLLoader.cpp in Sources */,
 				745FF8CA113ECB080020C31B /* MDLMaterialLoader.cpp in Sources */,
 				745FF8CB113ECB080020C31B /* ObjFileImporter.cpp in Sources */,
+				19E70916185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */,
 				745FF8CC113ECB080020C31B /* ObjFileMtlImporter.cpp in Sources */,
 				745FF8CD113ECB080020C31B /* ObjFileParser.cpp in Sources */,
 				745FF8CE113ECB080020C31B /* PlyLoader.cpp in Sources */,
@@ -4012,6 +4035,7 @@
 				745FF8D5113ECB080020C31B /* SplitLargeMeshes.cpp in Sources */,
 				19E708BE185A743600B8D758 /* FBXDocument.cpp in Sources */,
 				745FF8D6113ECB080020C31B /* STLLoader.cpp in Sources */,
+				19E70910185A7A5900B8D758 /* IFCOpenings.cpp in Sources */,
 				745FF8D7113ECB080020C31B /* TextureTransform.cpp in Sources */,
 				745FF8D8113ECB080020C31B /* TriangulateProcess.cpp in Sources */,
 				745FF8D9113ECB080020C31B /* ValidateDataStructure.cpp in Sources */,
@@ -4156,6 +4180,7 @@
 				745FF9AC113ECC660020C31B /* MDLLoader.cpp in Sources */,
 				745FF9AD113ECC660020C31B /* MDLMaterialLoader.cpp in Sources */,
 				745FF9AE113ECC660020C31B /* ObjFileImporter.cpp in Sources */,
+				19E70917185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */,
 				745FF9AF113ECC660020C31B /* ObjFileMtlImporter.cpp in Sources */,
 				745FF9B0113ECC660020C31B /* ObjFileParser.cpp in Sources */,
 				745FF9B1113ECC660020C31B /* PlyLoader.cpp in Sources */,
@@ -4168,6 +4193,7 @@
 				745FF9B8113ECC660020C31B /* SplitLargeMeshes.cpp in Sources */,
 				19E708BF185A743600B8D758 /* FBXDocument.cpp in Sources */,
 				745FF9B9113ECC660020C31B /* STLLoader.cpp in Sources */,
+				19E70911185A7A5900B8D758 /* IFCOpenings.cpp in Sources */,
 				745FF9BA113ECC660020C31B /* TextureTransform.cpp in Sources */,
 				745FF9BB113ECC660020C31B /* TriangulateProcess.cpp in Sources */,
 				745FF9BC113ECC660020C31B /* ValidateDataStructure.cpp in Sources */,
@@ -4312,6 +4338,7 @@
 				3AF45B3A0E4B716800207D74 /* MDLLoader.cpp in Sources */,
 				3AF45B3C0E4B716800207D74 /* MDLMaterialLoader.cpp in Sources */,
 				3AF45B3E0E4B716800207D74 /* ObjFileImporter.cpp in Sources */,
+				19E70914185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */,
 				3AF45B400E4B716800207D74 /* ObjFileMtlImporter.cpp in Sources */,
 				3AF45B420E4B716800207D74 /* ObjFileParser.cpp in Sources */,
 				3AF45B460E4B716800207D74 /* PlyLoader.cpp in Sources */,
@@ -4324,6 +4351,7 @@
 				3AF45B560E4B716800207D74 /* SplitLargeMeshes.cpp in Sources */,
 				19E708BC185A743600B8D758 /* FBXDocument.cpp in Sources */,
 				3AF45B580E4B716800207D74 /* STLLoader.cpp in Sources */,
+				19E7090E185A7A5900B8D758 /* IFCOpenings.cpp in Sources */,
 				3AF45B5B0E4B716800207D74 /* TextureTransform.cpp in Sources */,
 				3AF45B5D0E4B716800207D74 /* TriangulateProcess.cpp in Sources */,
 				3AF45B5F0E4B716800207D74 /* ValidateDataStructure.cpp in Sources */,
@@ -4468,6 +4496,7 @@
 				F962E8A40F5DE6C8009A5495 /* MDLLoader.cpp in Sources */,
 				F962E8A50F5DE6C8009A5495 /* MDLMaterialLoader.cpp in Sources */,
 				F962E8A60F5DE6C8009A5495 /* ObjFileImporter.cpp in Sources */,
+				19E70915185A7AD300B8D758 /* STEPFileEncoding.cpp in Sources */,
 				F962E8A70F5DE6C8009A5495 /* ObjFileMtlImporter.cpp in Sources */,
 				F962E8A80F5DE6C8009A5495 /* ObjFileParser.cpp in Sources */,
 				F962E8A90F5DE6C8009A5495 /* PlyLoader.cpp in Sources */,
@@ -4480,6 +4509,7 @@
 				F962E8B00F5DE6C8009A5495 /* SplitLargeMeshes.cpp in Sources */,
 				19E708BD185A743600B8D758 /* FBXDocument.cpp in Sources */,
 				F962E8B10F5DE6C8009A5495 /* STLLoader.cpp in Sources */,
+				19E7090F185A7A5900B8D758 /* IFCOpenings.cpp in Sources */,
 				F962E8B20F5DE6C8009A5495 /* TextureTransform.cpp in Sources */,
 				F962E8B30F5DE6C8009A5495 /* TriangulateProcess.cpp in Sources */,
 				F962E8B40F5DE6C8009A5495 /* ValidateDataStructure.cpp in Sources */,
