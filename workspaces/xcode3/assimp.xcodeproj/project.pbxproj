@@ -108,6 +108,10 @@
 		19E70905185A743600B8D758 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E708A3185A743600B8D758 /* FBXUtil.h */; };
 		19E70906185A743600B8D758 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E708A3185A743600B8D758 /* FBXUtil.h */; };
 		19E70907185A743600B8D758 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E708A3185A743600B8D758 /* FBXUtil.h */; };
+		19E70909185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
+		19E7090A185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
+		19E7090B185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
+		19E7090C185A799A00B8D758 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E70908185A799A00B8D758 /* IFCBoolean.cpp */; };
 		3AB8A3AF0E50D67A00606590 /* MDCFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AB0E50D67A00606590 /* MDCFileData.h */; };
 		3AB8A3B00E50D67A00606590 /* MDCLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8A3AC0E50D67A00606590 /* MDCLoader.cpp */; };
 		3AB8A3B10E50D67A00606590 /* MDCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AD0E50D67A00606590 /* MDCLoader.h */; };
@@ -1562,6 +1566,7 @@
 		19E708A1185A743600B8D758 /* FBXTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXTokenizer.h; path = ../../code/FBXTokenizer.h; sourceTree = "<group>"; };
 		19E708A2185A743600B8D758 /* FBXUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXUtil.cpp; path = ../../code/FBXUtil.cpp; sourceTree = "<group>"; };
 		19E708A3185A743600B8D758 /* FBXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXUtil.h; path = ../../code/FBXUtil.h; sourceTree = "<group>"; };
+		19E70908185A799A00B8D758 /* IFCBoolean.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCBoolean.cpp; path = ../../code/IFCBoolean.cpp; sourceTree = "<group>"; };
 		3AB8A3AB0E50D67A00606590 /* MDCFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCFileData.h; sourceTree = "<group>"; };
 		3AB8A3AC0E50D67A00606590 /* MDCLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MDCLoader.cpp; sourceTree = "<group>"; };
 		3AB8A3AD0E50D67A00606590 /* MDCLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCLoader.h; sourceTree = "<group>"; };
@@ -2810,6 +2815,7 @@
 		F97BA06415439FB2009EB9DD /* IFC */ = {
 			isa = PBXGroup;
 			children = (
+				19E70908185A799A00B8D758 /* IFCBoolean.cpp */,
 				F97BA06615439FC3009EB9DD /* IFCCurve.cpp */,
 				F97BA06715439FC3009EB9DD /* IFCGeometry.cpp */,
 				F97BA06815439FC3009EB9DD /* IFCLoader.cpp */,
@@ -3971,6 +3977,7 @@
 				745FF8B4113ECB080020C31B /* ASEParser.cpp in Sources */,
 				745FF8B5113ECB080020C31B /* Assimp.cpp in Sources */,
 				745FF8B6113ECB080020C31B /* BaseImporter.cpp in Sources */,
+				19E7090B185A799A00B8D758 /* IFCBoolean.cpp in Sources */,
 				745FF8B7113ECB080020C31B /* CalcTangentsProcess.cpp in Sources */,
 				745FF8B8113ECB080020C31B /* ConvertToLHProcess.cpp in Sources */,
 				745FF8B9113ECB080020C31B /* DefaultIOStream.cpp in Sources */,
@@ -4126,6 +4133,7 @@
 				745FF997113ECC660020C31B /* ASEParser.cpp in Sources */,
 				745FF998113ECC660020C31B /* Assimp.cpp in Sources */,
 				745FF999113ECC660020C31B /* BaseImporter.cpp in Sources */,
+				19E7090C185A799A00B8D758 /* IFCBoolean.cpp in Sources */,
 				745FF99A113ECC660020C31B /* CalcTangentsProcess.cpp in Sources */,
 				745FF99B113ECC660020C31B /* ConvertToLHProcess.cpp in Sources */,
 				745FF99C113ECC660020C31B /* DefaultIOStream.cpp in Sources */,
@@ -4281,6 +4289,7 @@
 				3AF45B030E4B716800207D74 /* ASEParser.cpp in Sources */,
 				3AF45B050E4B716800207D74 /* Assimp.cpp in Sources */,
 				3AF45B060E4B716800207D74 /* BaseImporter.cpp in Sources */,
+				19E70909185A799A00B8D758 /* IFCBoolean.cpp in Sources */,
 				3AF45B0A0E4B716800207D74 /* CalcTangentsProcess.cpp in Sources */,
 				3AF45B0C0E4B716800207D74 /* ConvertToLHProcess.cpp in Sources */,
 				3AF45B0E0E4B716800207D74 /* DefaultIOStream.cpp in Sources */,
@@ -4436,6 +4445,7 @@
 				F962E88F0F5DE6C8009A5495 /* ASEParser.cpp in Sources */,
 				F962E8900F5DE6C8009A5495 /* Assimp.cpp in Sources */,
 				F962E8910F5DE6C8009A5495 /* BaseImporter.cpp in Sources */,
+				19E7090A185A799A00B8D758 /* IFCBoolean.cpp in Sources */,
 				F962E8920F5DE6C8009A5495 /* CalcTangentsProcess.cpp in Sources */,
 				F962E8930F5DE6C8009A5495 /* ConvertToLHProcess.cpp in Sources */,
 				F962E8940F5DE6C8009A5495 /* DefaultIOStream.cpp in Sources */,
